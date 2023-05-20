@@ -18,7 +18,7 @@
         {"site": "netlify", "url": "https://ulises-weather-app.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/test-entregable1"}
       ],
-      "image": "public/images/projects/space-curiosity.png"
+      "image": "/images/projects/space-curiosity.png"
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
         {"site": "netlify", "url": "https://ulises-api-rickandmorty.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/React-Weather-App"}
       ],
-      "image": "public/images/projects/APIweather-React.png"
+      "image": "images/projects/APIweather-React.png"
     },
     {
       "id": 3,
