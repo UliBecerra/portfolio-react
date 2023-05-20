@@ -10,16 +10,20 @@ function Footer({setShowNav, showNav}) {
     setShowNav((show) => !show)
   } 
   return (
-    <div className="bg-[#1C1C65] h-[450px] md:h-auto text-white font-[400] text-[17px] w-full py-10">
-      <div className=' max-w-[900px] m-auto'> 
-        <ul className='grid gap-5 text-lg p-20 md:grid-cols-4'>
-          <li onClick={handleClickHideNav} ><a  className= "flex items-center gap-3" href="#home"> <AiOutlineHome/> Home</a></li>
-          <li onClick={handleClickHideNav} ><a  className= "flex items-center gap-3" href="#about-me"> <MdOutlinePersonOutline/>   About me</a></li>
-          <li onClick={handleClickHideNav} ><a  className= "flex items-center gap-3" href="#work"><MdWork/> Work</a></li>
-          <li onClick={handleClickHideNav} > <a className= "flex items-center gap-3"  href="#contact"><BsFillTelephoneFill/> Contact</a></li>
+    <div className="bg-[#1C1C65]  h-[450px] md:h-auto text-white font-[400] text-[17px] w-full py-10 ">
+      <div className=' max-w-[900px] m-auto grid row-start-2  '> 
+       <div className=" row-span-2 ">
+
+       <ul className='grid gap-5 text-lg p-20 md:p-10 md:grid-cols-4 md:justify-center text-center'>
+          <li onClick={handleClickHideNav} className='flex md:justify-center md:items-center' ><a  className= "flex items-center gap-3" href="#home"> <AiOutlineHome/> Home</a></li>
+          <li onClick={handleClickHideNav} className='flex md:justify-center md:items-center' ><a  className= "flex items-center gap-3" href="#about-me"> <MdOutlinePersonOutline/>   About me</a></li>
+          <li onClick={handleClickHideNav} className='flex md:justify-center md:items-center' ><a  className= "flex items-center gap-3" href="#work"><MdWork/> Work</a></li>
+          <li onClick={handleClickHideNav} className='flex md:justify-center md:items-center' > <a className= "flex items-center gap-3 "  href="#contact"><BsFillTelephoneFill/> Contact</a></li>
         </ul>
+
+       </div>
       
-      <div className=' flex  justify-around mx-12 pb-5 border-b-2 border-white'>
+      <div className=' flex  justify-around md:justify-center md:gap-10 mx-12 pb-5 md:border-none border-b-2 border-white '>
         <a href="https://www.linkedin.com/in/aldo-ulises-becerra-casanova-03b99926b/">
         <ul className="w-[40px] h-[40px] text-[25px] bg-[#0077B5] rounded-full grid place-content-center text-white"><FaLinkedinIn className=''/></ul>
         </a>

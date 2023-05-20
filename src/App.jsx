@@ -11,7 +11,7 @@ function App() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="App min-h-screen  bg-[#0F103F]">
+    <div className="App min-h-screen  bg-[#0F103F] overflow-hidden">
       {
        /*  showNav && 
         <NavBar showNav={showNav} setShowNav={setShowNav}/> */
@@ -23,12 +23,12 @@ function App() {
         
 
       }
-      <Header setShowNav={setShowNav} showNav={showNav}/>
+      <Header className="" setShowNav={setShowNav} showNav={showNav}/>
       <section className={`-top-[450px]`}>
       <Body   className=' ' setShowNav={setShowNav} showNav={showNav} />
       </section>
       <section className={`${showNav ? 'hidden' : 'visible'}`}>
-      <Footer  />
+      <Footer className='z-20'  />
       </section>
     </div>
   )

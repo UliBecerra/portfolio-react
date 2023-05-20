@@ -22,14 +22,15 @@ function Header({setShowNav, showNav}) {
     setShowNav((show) => !show)
   } 
   return (
-    <section className={`${showNav ? 'hidden' : 'visible'}  `}>
-    <div className='flex justify-end'>
-    <button className='z-10 fixed text-white text-3xl m-3 ' onClick={handleClickshowNav}> <HiBars3BottomRight /> </button>
+    <section className="">
+    <div className='flex justify-end md:hidden'>
+    <button className={`${showNav ? 'hidden' : 'visible'} z-10 fixed text-white text-3xl m-3 `} onClick={handleClickshowNav}> <HiBars3BottomRight /> </button>
   </div>
     <div className=' bg-[url(public/images/planethead.png)] md:left-0 bg-center
      w-[322px] h-[469px] absolute top-[-83px] left-[-222px] '>
       
     </div>
+
     </section>
 
   

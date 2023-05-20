@@ -8,8 +8,8 @@ import Header from '../components/Header'
 
 export default function Body({setShowNav, showNav}) {
   return (
-    <div className="">
-      <section className=" w-full h-[450px] flex justify-center  items-center font-poppins mt-[100px]  py-20 md:justify-start md:pl-80  ">
+    <div className=" max-h-full ">
+      <section className=" w-full h-[450px] flex justify-center  items-center font-poppins mt-[100px]  py-20 md:justify-start md:pl-80 z-10 ">
         <div className="z-10" id="home">
           <h1 className="text-left text-white  text-[30px] font-bold mt-[60px] pl-[20px] md:max-w-md  ">
             Creative UI Designer Sourasith Phomhome Based in Montreal
@@ -27,7 +27,6 @@ export default function Body({setShowNav, showNav}) {
           </div>
           
         </div>  
-        <img  className="right-0 absolute top-0 hidden md:block z-0" src="public/images/ilustration-bottom.png" alt="" />
       </section>
       <section id="about-me" className=" bg-[url('/public/images/body-first.png')] w-[100%] h-[850px]  bg-cover bg-center md:bg-contain md:bg-no-repeat  md:aspect-square md:mt-32 ">
         <article  className=" absolute text-white text-[13px] right-2 mt-[250px] w-[255px] md:left-1/2 md:-translate-x-[20%]    ">
@@ -40,6 +39,7 @@ export default function Body({setShowNav, showNav}) {
             creating digital experiences with excellent design and good
             functionalities. My goal is to work in a digital company...{" "}
             <strong>read more</strong>
+            
           </h3>
         </article>
       </section>
@@ -65,7 +65,7 @@ export default function Body({setShowNav, showNav}) {
       
 
      
-        <section id="contact" className=" max-w-[900px] text-white bg-gradient-to-b from-[#2f2f8a99] to-[#2f2f8a1a] rounded-[30px]  py-10 px-4 grid md:grid-cols-2 m-2 md:mx-auto my-10">
+        <section id="contact" className=" max-w-[900px] text-white bg-gradient-to-b from-[#2f2f8a99] to-[#2f2f8a1a] rounded-[30px]  py-10 px-4 grid md:grid-cols-2 m-2 md:mx-auto my-10 z-20">
           <div className="">
           <h1 className="font-[700] text-[24px]">Get in touch</h1>
           <h3 className="w-[90%] py-4">
@@ -86,13 +86,13 @@ export default function Body({setShowNav, showNav}) {
             </li>
           </ul>
           </div>
-          <div>
+          <div className="relative ">
             
           <h2 className="text-[23px] font-[700] pt-[25px]">
             Send me a message
           </h2>
           
-          <form action="" className="my-[10px]">
+          <form action="" className="my-[10px] z-30">
             <input
               type="text"
               name=""
@@ -124,18 +124,22 @@ export default function Body({setShowNav, showNav}) {
             <button
               type="submit"
               value="Send message"
-              className=" block m-auto h-[50px]  px-5  bg-gradient-to-br from-[#C961DE] to-[#2954A3]   rounded-[10px] text-white text-[17px] mt-[10px] font-[400]  "
+              className=" block m-auto h-[50px]  px-5  bg-gradient-to-br from-[#C961DE] to-[#2954A3]   rounded-[10px] text-white text-[17px] mt-[10px] font-[400]  z-20"
             >
               {" "}
               send message{" "}
             </button>
             
           </form>
-          
+
+          {/* Form submit */}
+        
           </div>
-{/*           <img className="absolute " src="public/images/Illustration-footer.png" alt="" />
- */}        </section>
+          
+        </section>
       
+          
+          
     </div>
   );
 }
