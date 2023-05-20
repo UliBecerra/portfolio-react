@@ -12,7 +12,7 @@ export default function Body({setShowNav, showNav}) {
       <section className=" w-full h-[450px] flex justify-center  items-center font-poppins mt-[100px]  py-20 md:justify-start md:pl-80 z-10 ">
         <div className="z-10" id="home">
           <h1 className="text-left text-white  text-[30px] font-bold mt-[60px] pl-[20px] md:max-w-md  ">
-            Carlos me ayuda
+            Carsljdlsañ
           </h1>
 
           <div className="grid md:grid-cols-2 place-content-center py-10 ">
