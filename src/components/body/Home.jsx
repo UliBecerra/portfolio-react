@@ -10,7 +10,7 @@ export default function Home() {
       <div className="w-full z-10 grid place-content-center  gap-10 md:w-[1000px] p-2">
 
       <h1 className='font-[700] text-3xl z-10 max-w-[500px]'>
-      I am <span  className="typing-machine w-[180px] md:w-[220px] border-y-0 py-0 my-0 h-[29px] md:h-[36px]" >Aldo Ulises</span>, a frontend developer and programming passionate, based in Mexico      </h1>
+      I am <span  className="typing-machine w-[180px] md:w-[220px] border-y-0 py-0 my-0 h-[29px] md:h-[30px]" >Aldo Ulises</span>, a frontend developer and programming passionate, based in Mexico      </h1>
       <div className="grid gap-4 md:flex  md:justify-center md:gap-4">
       <a className="block m-auto" href="#contact">
       <button  className='m-auto md:m-0 h-[50px] w-[200px] bg-[rgba(255,_255,_255,_0.3)] rounded-3xl text-[17px] shadow-[-1px_-1px_2px_0px_rgba(0,_0,_0,_0.15)] shadow-white '>Hire me</button>
