@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import './Contact.css'
-
+import { ReactDOM } from "react-dom";
 const BASE_URL = 'https://formsubmit.co/ajax/'
 const EMAIL = 'aldoulisesbc@gmail.com'
 export default function Contact() {
@@ -12,7 +12,7 @@ export default function Contact() {
     name: '',
     email: '',
     subject: '',
-    message: '',
+    description: '',
   }
   const submit = (data) => {
     postForm(data); 
@@ -24,8 +24,8 @@ export default function Contact() {
     axios.defaults.headers.post['Content-Type'] = 'application/json';
     axios
       .post(URL, data)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      .then((res) =>  alert('El mensaje se ha enviado correctamente'))
+      .catch((err) => alert('Ups ocurrio un error'));
    
       };
   
