@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Poke API",
+      "description": "Explore the Pokemon´s wordl using PokeAPI",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-pokeapi.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/pokeAPI-react-redux"}
+      ],
+      "image": "public/images/projects/pokeAPI-React.png"
+    },
+    {
+      "id": 1,
+      "title": "Space Curiosity",
+      "description": "Frases Espaciales",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-weather-app.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/test-entregable1"}
+      ],
+      "image": "/images/projects/space-curiosity.png"
+    },
+    {
+      "id": 2,
+      "title": "API Weather",
+      "description": "Check and search weather using Open Weather Map",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-weather-app.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/React-Weather-App"}
+      ],
+      "image": "/images/projects/APIweather-React.png"
+    },
+    {
+      "id": 3,
+      "title": "API Rick and Morty",
+      "description": "Explore universe rick and morty using rickandmorty api",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-api-rickandmorty.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/React-Rick-and-Morty-API"}
+      ],
+      "image": "public/images/projects/ApiRickAndMorty-React.png"
+    },
+    {
+      "id": 4,
+      "title": "CRUD users",
+      "description": "App to create, read, update and delete users",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-api-cru-users.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/CRUD-users-API"}
+      ],
+      "image": "public/images/projects/CRUDusers-React.png"
+    },
+    {
+      "id": 5,
+      "title": "TODO",
+      "description": "App to create list of tasks",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-todo.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/list-tasks-react"}
+      ],
+      "image": "public/images/projects/Todo-React.png"
+    },
+    {
+      "id": 6,
+      "title": "E-comerce",
+      "description": "Store with several categories of products",
+      "urls": [
+        {"site": "netlify", "url": "https://ulises-ecomerce-react.netlify.app"},
+        {"site": "github", "url": "https://github.com/UliBecerra/react-ecomerce"}
+      ],
+      "image": "public/images/projects/E-commercer-React.png"
+    }
+  ]
+}
