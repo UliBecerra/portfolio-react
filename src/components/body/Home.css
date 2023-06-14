@@ -1,0 +1,21 @@
+
+/* block w-[14ch] whitespace-nowrap border-r-4px border-solid animate-[typing_2s_steps(12,_blink_.5s_infinite_step-end_alternate)]  overflow-hidden
+ */
+ .typing-machine{
+  display: inline-block;
+  
+  white-space: nowrap;
+  border-right: 1px solid;
+  animation: typing 6s steps(12), blink .5s infinite step-end alternate;
+  overflow: hidden;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+@keyframes typing {
+  from {width: 0px;}
+}
+
+@keyframes blink {
+  60% {border-color: transparent ;}
+}

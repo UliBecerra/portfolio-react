@@ -16,7 +16,7 @@ function SliderProjects() {
     autoplay={true}
     modules={[Autoplay]}
     >
-       s
+       
       {
         data.projects.map((project) => (
           <SwiperSlide className='h-[180px] relative  bg-[#e5e5e5] rounded-md hover:scale-110 '>

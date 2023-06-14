@@ -25,17 +25,17 @@
       "title": "API Weather",
       "description": "Check and search weather using Open Weather Map",
       "urls": [
-        {"site": "netlify", "url": "https://ulises-api-rickandmorty.netlify.app"},
+        {"site": "netlify", "url": "https://ulises-weather-app.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/React-Weather-App"}
       ],
-      "image": "images/projects/APIweather-React.png"
+      "image": "/images/projects/APIweather-React.png"
     },
     {
       "id": 3,
       "title": "API Rick and Morty",
       "description": "Explore universe rick and morty using rickandmorty api",
       "urls": [
-        {"site": "netlify", "url": ""},
+        {"site": "netlify", "url": "https://ulises-api-rickandmorty.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/React-Rick-and-Morty-API"}
       ],
       "image": "public/images/projects/ApiRickAndMorty-React.png"
@@ -48,7 +48,7 @@
         {"site": "netlify", "url": "https://ulises-api-cru-users.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/CRUD-users-API"}
       ],
-      "image": "https://st2.depositphotos.com/2222024/5819/i/450/depositphotos_58199799-stock-photo-beautiful-happy-reddish-havanese-puppy.jpg"
+      "image": "public/images/projects/CRUDusers-React.png"
     },
     {
       "id": 5,
