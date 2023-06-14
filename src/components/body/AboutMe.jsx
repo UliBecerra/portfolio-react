@@ -1,7 +1,7 @@
 
 export default function AboutMe() {
   return (
-      <section id="aboutme" className="relative w-full h-[850px] bg-[url(images/body-first.png)] bg-cover bg-center aspect-square md:bg-contain bg-no-repeat">
+      <section id="aboutme" className="relative w-full h-[850px] bg-[url(/images/body-first.png)] bg-cover bg-center aspect-square md:bg-contain bg-no-repeat">
         <div name="#about-me" id="#about-me" className="absolute  text-white text-[13px] right-2 mt-[250px] w-[255px] md:left-1/2 md:-translate-x-[20%]   ">
         <h1 className="text-[20px] py-4 ">
             <strong>About me</strong>
