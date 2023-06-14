@@ -8,7 +8,7 @@
         {"site": "netlify", "url": "https://ulises-pokeapi.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/pokeAPI-react-redux"}
       ],
-      "image": "public/images/projects/pokeAPI-React.png"
+      "image": "/images/projects/pokeAPI-React.png"
     },
     {
       "id": 1,
@@ -38,7 +38,7 @@
         {"site": "netlify", "url": "https://ulises-api-rickandmorty.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/React-Rick-and-Morty-API"}
       ],
-      "image": "public/images/projects/ApiRickAndMorty-React.png"
+      "image": "/images/projects/ApiRickAndMorty-React.png"
     },
     {
       "id": 4,
@@ -48,7 +48,7 @@
         {"site": "netlify", "url": "https://ulises-api-cru-users.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/CRUD-users-API"}
       ],
-      "image": "public/images/projects/CRUDusers-React.png"
+      "image": "/images/projects/CRUDusers-React.png"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
         {"site": "netlify", "url": "https://ulises-todo.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/list-tasks-react"}
       ],
-      "image": "public/images/projects/Todo-React.png"
+      "image": "/images/projects/Todo-React.png"
     },
     {
       "id": 6,
@@ -68,7 +68,7 @@
         {"site": "netlify", "url": "https://ulises-ecomerce-react.netlify.app"},
         {"site": "github", "url": "https://github.com/UliBecerra/react-ecomerce"}
       ],
-      "image": "public/images/projects/E-commercer-React.png"
+      "image": "/images/projects/E-commercer-React.png"
     }
   ]
 }

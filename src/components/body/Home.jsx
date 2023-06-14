@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <article id="home" className=' h-[675px] flex gap-3 w-full Home ' >
       <div className='w-[370px] h-[435px] -left-[60%] absolute -top-20 md:left-0 md:top-0 z-0 '>
-        <img src="public/images/planethead.png" alt="" />
+        <img src="/images/planethead.png" alt="" />
       </div>
       <div className="w-full z-10 grid place-content-center  gap-10 md:w-[1000px] p-2">
 

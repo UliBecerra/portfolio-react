@@ -33,7 +33,7 @@ export default function Contact() {
   return (
   <div id="contact" className="relative w-screen z-20 Contact ">
     <div className="absolute right-0 -top-20 -z-20   ">
-          <img src="/public/images/Illustration-footer.png " alt="" />
+          <img src="/images/Illustration-footer.png " alt="" />
           </div>
     <section  className=" max-w-[900px] text-white bg-[rgba(47,_47,_138,_0.6)] rounded-[30px]   px-4 grid md:grid-cols-2 m-2 md:mx-auto py-20 z-20 backdrop-blur-md	mb-52 ">
       
