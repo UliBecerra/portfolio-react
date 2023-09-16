@@ -11,13 +11,13 @@ function Footer() {
     <div className="bg-[#1C1C65]  h-[450px] md:h-auto text-white font-[400] text-[17px] w-full py-10 z-20">
       <div className=' max-w-[900px] m-auto grid row-start-2 z-20  '> 
        <div className=" row-span-2 ">
-
+{/* 
        <ul className='grid gap-5 text-lg p-20 md:p-10 md:grid-cols-4 md:justify-center text-center'>
           <li className='flex md:justify-center md:items-center' ><Link to="home" spy={true} smooth={true} offset={-100} duration={500}  className= "flex items-center gap-3 z-30 cursor-pointer " > <AiOutlineHome/> Home</Link></li>
           <li className='flex md:justify-center md:items-center' ><Link to="aboutme" spy={true} smooth={true} offset={-100} duration={500}  className= "flex items-center gap-3 z-30 cursor-pointer " > <MdOutlinePersonOutline/>   About me</Link></li>
           <li className='flex md:justify-center md:items-center' ><Link to="work" spy={true} smooth={true} offset={-100} duration={500}  className= "flex items-center gap-3 z-30 cursor-pointer " ><MdWork/> Work</Link></li>
           <li className='flex md:justify-center md:items-center' > <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500}  className= "flex items-center gap-3 z-30 cursor-pointer  " ><BsFillTelephoneFill/> Contact</Link></li>
-        </ul>
+        </ul> */}
 
        </div>
       
