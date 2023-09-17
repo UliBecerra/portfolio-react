@@ -6,7 +6,11 @@
   
   white-space: nowrap;
   border-right: 1px solid;
+<<<<<<< HEAD
   animation: typing 6s steps(12), blink .5s infinite step-end alternate;
+=======
+  animation: typing 6s steps(11), blink .5s infinite step-end alternate;
+>>>>>>> 9b0367b4ac078873f9956c4df5069564bb143490
   overflow: hidden;
   padding-bottom: 0;
   margin-bottom: 0;
